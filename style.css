@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Courier New', monospace;
+    color: #fff;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+#info p {
+    margin: 5px 0;
+}
